@@ -1,0 +1,27 @@
+.active {
+    color: #099B4A;
+  
+    border-bottom: 2px solid #099B4A;
+}
+/* Global dark mode styles */
+body.dark {
+    background-color: #1a202c; /* Dark background */
+    color: white; /* Light text */
+  }
+  
+  body.light {
+    background-color: white; /* Light background */
+    color: black; /* Dark text */
+  }
+  
+  /* You can also add background color for specific routes like the dashboard page */
+  .dashboard-page.dark {
+    background-color: #2d3748; /* Dark background for dashboard */
+    color: white; /* Light text */
+  }
+  
+  .dashboard-page.light {
+    background-color: white; /* Light background for dashboard */
+    color: black; /* Dark text */
+  }
+  
